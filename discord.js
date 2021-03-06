@@ -21,7 +21,7 @@ const { resolve } = require('path');
 
 var twitterclient = new Twitter({
   consumer_key: t_consumer_key,
-  consumer_secret: t_consumer_secret
+  consumer_secret: t_consumer_secret,
 	access_token_key: t_access_token_key,
   access_token_secret: t_access_token_secret
 });
